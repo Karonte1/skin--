@@ -1,0 +1,50 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Montserrat", sans-serif;
+}
+
+.wave { 
+    position: fixed;
+    height:100%;
+    left:0 ;
+    bottom: 0;
+    z-index: -1;
+}
+.container {
+    width: 100%;
+    height:100vh;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 7rem;
+    /* padding: 0 2rem; */
+    border: solid 1px black;
+}
+.img {
+    display: flex;
+    justify-content:flex-end ;
+    align-items: center;
+}
+
+.img img {
+    width: 500px;
+}
+.login-container { 
+    width: 100%;
+    background-color: #95C0D8;
+    display:flex;
+    align-items:center;
+    text-align:center;
+}
+.login-container form {
+    margin-left:250px ;
+}
+
+.avatar { 
+width: 100px;
+mix-blend-mode: multiply;
+}
